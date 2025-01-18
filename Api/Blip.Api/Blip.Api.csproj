@@ -11,7 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Blip.Core\Blip.Core.csproj" />
+    <ProjectReference Include="..\Blip.Infraestructure.CrossCutting.Ioc\Blip.Infraestructure.CrossCutting.Ioc.csproj" />
+    <ProjectReference Include="..\Blip.Infraestructure\Blip.Infraestructure.csproj" />
   </ItemGroup>
 
 </Project>

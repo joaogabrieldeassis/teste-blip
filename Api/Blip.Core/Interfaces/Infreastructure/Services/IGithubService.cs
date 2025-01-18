@@ -4,5 +4,5 @@ namespace Blip.Core.Interfaces.Infreastructure.Services;
 
 public interface IGithubService
 {
-    public Task<IEnumerable<GithubResponse>> GetTheFiveOldestRepositoriesWrittenInCsharp();
+    public Task<IEnumerable<GithubResponse>?> GetTheFiveOldestRepositoriesWrittenInCsharp();
 }
